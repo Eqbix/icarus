@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212; /* Темный фон */
+    color: #e0e0e0; /* Светлый текст по умолчанию */
+}
+header {
+    background-color: #1a1a1a; /* Темный фон для заголовка */
+    color: #ffff00; /* Неоновый желтый цвет текста */
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a {
+    color: #ffff00; /* Неоновый желтый цвет ссылок */
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ffcc00; /* Цвет при наведении на ссылки */
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #1a1a1a; /* Темный фон для подвала */
+    color: #ffff00; /* Неоновый желтый цвет текста */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h1, h2 {
+    text-align: center;
+    color: #ffff00; /* Неоновый желтый цвет заголовков */
+}
+section {
+    margin: 20px 0;
+    border: 1px solid #ffff00; /* Неоновая желтая рамка секций */
+    padding: 15px;
+    border-radius: 5px; /* Закругленные углы */
+    background-color: #1a1a1a; /* Темный фон для секций */
+}
