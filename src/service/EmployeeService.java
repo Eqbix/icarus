@@ -29,4 +29,12 @@ public class EmployeeService {
                 .findFirst()
                 .orElse(null);
     }
+
+    public void updateEmployee(Employee employee) {
+
+    }
+
+    public void deleteEmployee(int id) {
+
+    }
 }

@@ -40,4 +40,12 @@ public class SaleService {
         }
         return dateSales;
     }
+
+    public void updateSale(Sale sale) {
+
+    }
+
+    public void deleteSale(int id) {
+
+    }
 }

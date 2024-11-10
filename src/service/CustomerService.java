@@ -24,9 +24,12 @@ public class CustomerService {
     }
 
     public Customer findCustomerById(String id) {
-        return customers.stream()
-                .filter(customer -> customer.getId().equals(id))
-                .findFirst()
-                .orElse(null);
+        return null;
+    }
+
+    public void updateCustomer(Customer customer) {
+    }
+
+    public void deleteCustomer(int id) {
     }
 }

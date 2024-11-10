@@ -20,7 +20,7 @@ public class ServiceService {
     }
 
     public List<Service> getAllServices() {
-        return services;
+        return null;
     }
 
     public Service findServiceById(String serviceId) {
@@ -28,5 +28,12 @@ public class ServiceService {
                 .filter(service -> service.getServiceId().equals(serviceId))
                 .findFirst()
                 .orElse(null);
+    }
+
+    public void updateService(Service service) {
+
+    }
+
+    public void deleteService(int id) {
     }
 }

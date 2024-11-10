@@ -29,4 +29,11 @@ public class CarService {
                 .findFirst()
                 .orElse(null);
     }
+
+    public void updateCar(Car car) {
+    }
+
+    public void deleteCar(int id) {
+
+    }
 }
