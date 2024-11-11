@@ -49,3 +49,14 @@ section {
     border-radius: 5px; /* Закругленные углы */
     background-color: #1a1a1a; /* Темный фон для секций */
 }
+/* Пример стилей для кнопок */
+button {
+    margin: 10px; /* Отступ между кнопками */
+    padding: 10px 20px; /* Внутренние отступы для кнопок */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Цвет фона при наведении */
+}

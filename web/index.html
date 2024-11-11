@@ -24,11 +24,22 @@
         <h2>Добро пожаловать в наш автосалон!</h2>
         <p>Мы рады предложить вам широкий выбор автомобилей на любой вкус. Наша команда профессионалов всегда готова помочь вам в выборе идеального автомобиля, который соответствует вашим требованиям и бюджету.</p>
         <p>В нашем автосалоне вы найдете как новые, так и подержанные автомобили от лучших производителей. Мы гарантируем высокое качество и надежность каждого автомобиля.</p>
-        <img src="pic/welcome_car.webp" alt="Добро пожаловать в автосалон" style="max-width: 100%; height: auto;">
+        <img src="pic/welcome_car.webp" alt="Добро пожаловать в автосалон" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+
+        <!-- Контейнеры кнопок -->
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="getCarsButton">Получить все автомобили</button>
+            <button id="addCarButton">Добавить автомобиль</button>
+            <button id="deleteCarButton">Удалить автомобиль</button>
+        </div>
+
+        <!-- Место для вывода списка автомобилей -->
+        <div id="carList"></div>
     </section>
 </main>
 <footer>
     <p>&copy; 2024 Автосалон. Студент ВТАСбзу-21 Соловьев Д.В.</p>
 </footer>
+<script src="script.js" defer></script> <!-- Путь к JS файлу -->
 </body>
 </html>
