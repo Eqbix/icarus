@@ -80,3 +80,4 @@ document.getElementById('deleteCarButton').addEventListener('click', function() 
         alert('Модель автомобиля должна быть заполнена.');
     }
 });
+// solo
